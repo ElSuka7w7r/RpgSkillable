@@ -86,7 +86,7 @@ public class Config {
         MAXIMUM_LEVEL = builder.defineInRange("maximumLevel", 31, 2, Integer.MAX_VALUE);
         
         builder.comment("Maximum levels the player can have. This is the sum of all skill levels.");
-        MAXIMUM_LEVEL_TOTAL = builder.defineInRange("maximumLevelTotal", 66, 6, Integer.MAX_VALUE);
+        MAXIMUM_LEVEL_TOTAL = builder.defineInRange("maximumLevelTotal", 186, 6, Integer.MAX_VALUE);
         
         builder.comment("How many levels are required per level of positive skill effect. Example: setting this to 6 will grant a level of positive effect every 6 levels in that skill.");
         EFFECT_PER_LEVEL = builder.defineInRange("effectPerLevel", 6, 1, 100);
